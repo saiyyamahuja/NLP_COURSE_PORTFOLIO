@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 3: Semantic and Discourse Analysis | NLP Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">NLP Portfolio</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About the Course</a></li>
+                    <li><a href="objectives.html">Learning Objectives</a></li>
+                    <li class="dropdown">
+                        <a href="#">Units</a>
+                        <div class="dropdown-content">
+                            <a href="unit1.html">Unit 1</a>
+                            <a href="unit2.html">Unit 2</a>
+                            <a href="unit3.html">Unit 3</a>
+                            <a href="unit4.html">Unit 4</a>
+                            <a href="unit5.html">Unit 5</a>
+                        </div>
+                    </li>
+                    <li><a href="reflection.html">Reflection</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Unit 3: Semantic and Discourse Analysis</h1>
+            <p>9 Hours</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="section">
+            <div class="unit-content">
+                <h2>Unit Overview</h2>
+                <p>This unit explores semantic and discourse analysis, focusing on how meaning is represented and understood in language. Students learn about word meanings, semantic relationships, word embeddings, and techniques for analyzing text coherence and structure beyond the sentence level.</p>
+                
+                <div class="download-section">
+                    <a href="Short notes/UNIT_3_NLP.pdf" class="btn" target="_blank">Download Unit 3 Notes (PDF)</a>
+                </div>
+                <h3>Representing Meaning</h3>
+                <p>This section covers different approaches to representing meaning in computational systems:</p>
+                <ul>
+                    <li>Formal semantics and logical representations</li>
+                    <li>Frame semantics and semantic roles</li>
+                    <li>Distributional semantics</li>
+                    <li>Conceptual and cognitive approaches</li>
+                </ul>
+                
+                <h3>Lexical Semantics</h3>
+                <p>Lexical semantics focuses on the meaning of words and the relationships between them:</p>
+                <ul>
+                    <li>Theories of word meaning</li>
+                    <li>Semantic features and components</li>
+                    <li>Semantic fields and domains</li>
+                    <li>Computational approaches to lexical semantics</li>
+                </ul>
+                
+                <h3>Word Senses</h3>
+                <p>Words often have multiple meanings or senses. This section covers:</p>
+                <ul>
+                    <li>Polysemy and homonymy</li>
+                    <li>Sense inventories and dictionaries</li>
+                    <li>WordNet and other lexical resources</li>
+                    <li>Computational representation of word senses</li>
+                </ul>
+                
+                <h3>Relation between Senses</h3>
+                <p>This section explores the semantic relationships between word senses:</p>
+                <ul>
+                    <li>Synonymy and antonymy</li>
+                    <li>Hyponymy and hypernymy (IS-A relationships)</li>
+                    <li>Meronymy and holonymy (PART-OF relationships)</li>
+                    <li>Other semantic relations</li>
+                    <li>Representing semantic networks</li>
+                </ul>
+                
+                <h3>Word Sense Disambiguation</h3>
+                <p>Word Sense Disambiguation (WSD) is the task of identifying which sense of a word is used in a particular context:</p>
+                <ul>
+                    <li>Knowledge-based WSD approaches</li>
+                    <li>Supervised and unsupervised WSD</li>
+                    <li>Feature extraction for WSD</li>
+                    <li>Evaluation metrics for WSD systems</li>
+                </ul>
+                
+                <h3>Word Embeddings</h3>
+                <p>Word embeddings are dense vector representations of words that capture semantic meaning:</p>
+                <ul>
+                    <li>Vector space models of meaning</li>
+                    <li>Distributional hypothesis</li>
+                    <li>Properties and evaluation of word embeddings</li>
+                    <li>Applications of word embeddings in NLP tasks</li>
+                </ul>
+                
+                <h3>Word2Vec</h3>
+                <p>Word2Vec is a popular technique for learning word embeddings:</p>
+                <ul>
+                    <li>Neural network architecture</li>
+                    <li>Training objectives and methods</li>
+                    <li>Implementation and parameter tuning</li>
+                    <li>Semantic and syntactic properties of Word2Vec embeddings</li>
+                </ul>
+                
+                <h3>CBOW and Skip-gram</h3>
+                <p>These are two model architectures used in Word2Vec:</p>
+                <ul>
+                    <li>Continuous Bag of Words (CBOW) model</li>
+                    <li>Skip-gram model</li>
+                    <li>Comparison of CBOW and Skip-gram</li>
+                    <li>Training and optimization techniques</li>
+                </ul>
+                
+                <h3>GloVe</h3>
+                <p>Global Vectors for Word Representation (GloVe) is another word embedding technique:</p>
+                <ul>
+                    <li>Count-based vs. prediction-based embeddings</li>
+                    <li>GloVe's objective function</li>
+                    <li>Training and implementation</li>
+                    <li>Comparison with Word2Vec</li>
+                </ul>
+                
+                <h3>Discourse Segmentation</h3>
+                <p>Discourse segmentation involves dividing text into coherent units:</p>
+                <ul>
+                    <li>Topic segmentation</li>
+                    <li>Rhetorical structure segmentation</li>
+                    <li>Algorithms for discourse segmentation</li>
+                    <li>Evaluation metrics</li>
+                </ul>
+                
+                <h3>Text Coherence</h3>
+                <p>Coherence refers to how well the parts of a text connect logically:</p>
+                <ul>
+                    <li>Local and global coherence</li>
+                    <li>Coherence relations</li>
+                    <li>Computational models of coherence</li>
+                    <li>Applications in text generation and evaluation</li>
+                </ul>
+                
+                <h3>Discourse Structure</h3>
+                <p>This section covers frameworks for analyzing the structure of discourse:</p>
+                <ul>
+                    <li>Rhetorical Structure Theory (RST)</li>
+                    <li>Penn Discourse Treebank</li>
+                    <li>Discourse parsing algorithms</li>
+                    <li>Applications of discourse structure analysis</li>
+                </ul>
+                
+                <h3>Reference Resolution</h3>
+                <p>Reference resolution involves identifying what entities are being referred to in text:</p>
+                <ul>
+                    <li>Types of references (anaphora, cataphora, exophora)</li>
+                    <li>Computational approaches to reference resolution</li>
+                    <li>Challenges in reference resolution</li>
+                </ul>
+                
+                <h3>Pronominal Anaphora Resolution</h3>
+                <p>This focuses specifically on resolving pronouns to their referents:</p>
+                <ul>
+                    <li>Rule-based approaches</li>
+                    <li>Statistical and machine learning methods</li>
+                    <li>Features for pronoun resolution</li>
+                    <li>Evaluation metrics</li>
+                </ul>
+                
+                <h3>Coreference Resolution</h3>
+                <p>Coreference resolution identifies all expressions that refer to the same entity:</p>
+                <ul>
+                    <li>Mention detection</li>
+                    <li>Entity clustering</li>
+                    <li>Neural approaches to coreference resolution</li>
+                    <li>Evaluation metrics (MUC, B³, CEAF, CoNLL F1)</li>
+                </ul>
+                
+                <div class="navigation-links">
+                    <a href="unit2.html" class="btn">Previous: Unit 2</a>
+                    <a href="objectives.html" class="btn">Back to Learning Objectives</a>
+                    <a href="unit4.html" class="btn">Next: Unit 4</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Saiyyam Ahuja | NLP Course Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

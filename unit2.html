@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2: Syntax Analysis | NLP Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">NLP Portfolio</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About the Course</a></li>
+                    <li><a href="objectives.html">Learning Objectives</a></li>
+                    <li class="dropdown">
+                        <a href="#">Units</a>
+                        <div class="dropdown-content">
+                            <a href="unit1.html">Unit 1</a>
+                            <a href="unit2.html">Unit 2</a>
+                            <a href="unit3.html">Unit 3</a>
+                            <a href="unit4.html">Unit 4</a>
+                            <a href="unit5.html">Unit 5</a>
+                        </div>
+                    </li>
+                    <li><a href="reflection.html">Reflection</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Unit 2: Syntax Analysis</h1>
+            <p>9 Hours</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="section">
+            <div class="unit-content">
+                <h2>Unit Overview</h2>
+                <p>This unit focuses on syntax analysis, which involves understanding the grammatical structure of sentences and how words combine to form meaningful phrases and sentences. Students learn about formal grammars, parsing techniques, and computational approaches to syntactic analysis.</p>
+                
+                <div class="download-section">
+                    <a href="Short notes/UNIT_2_NLP.pdf" class="btn" target="_blank">Download Unit 2 Notes (PDF)</a>
+                </div>
+                
+                <h3>Context Free Grammars</h3>
+                <p>Context-Free Grammars (CFGs) are formal systems for describing the syntactic structure of languages. This section covers:</p>
+                <ul>
+                    <li>Formal definition of CFGs (terminals, non-terminals, production rules, start symbol)</li>
+                    <li>Derivations and parse trees</li>
+                    <li>Chomsky Normal Form</li>
+                    <li>Limitations of CFGs</li>
+                </ul>
+                
+                <h3>Grammar Rules for English</h3>
+                <p>This section explores how CFGs can be used to model English syntax:</p>
+                <ul>
+                    <li>Phrase structure rules (NP, VP, PP, etc.)</li>
+                    <li>Handling subject-verb agreement</li>
+                    <li>Dealing with complex constructions</li>
+                    <li>Grammar development and refinement</li>
+                </ul>
+                
+                <h3>Top-Down Parsing</h3>
+                <p>Top-down parsing starts with the start symbol and attempts to derive the input string. This section covers:</p>
+                <ul>
+                    <li>Recursive descent parsing</li>
+                    <li>Predictive parsing</li>
+                    <li>LL parsing algorithms</li>
+                    <li>Advantages and limitations of top-down approaches</li>
+                </ul>
+                
+                <h3>Bottom-Up Parsing</h3>
+                <p>Bottom-up parsing starts with the input string and attempts to reduce it to the start symbol. This section covers:</p>
+                <ul>
+                    <li>Shift-reduce parsing</li>
+                    <li>LR parsing algorithms</li>
+                    <li>Operator precedence parsing</li>
+                    <li>Advantages and limitations of bottom-up approaches</li>
+                </ul>
+                
+                <h3>Ambiguity</h3>
+                <p>Ambiguity occurs when a sentence has multiple valid parse trees. This section covers:</p>
+                <ul>
+                    <li>Types of ambiguity (lexical, syntactic, semantic)</li>
+                    <li>Identifying and resolving ambiguity</li>
+                    <li>Impact of ambiguity on parsing</li>
+                    <li>Techniques for handling ambiguous grammars</li>
+                </ul>
+                
+                <h3>CKY Parsing</h3>
+                <p>The Cocke-Kasami-Younger (CKY) algorithm is a dynamic programming approach to parsing. This section covers:</p>
+                <ul>
+                    <li>CKY algorithm formulation</li>
+                    <li>Converting grammars to Chomsky Normal Form</li>
+                    <li>Implementation and complexity analysis</li>
+                    <li>Handling ambiguity in CKY parsing</li>
+                </ul>
+                
+                <h3>Dependency Parsing</h3>
+                <p>Dependency parsing focuses on the relationships between words rather than phrase structure. This section covers:</p>
+                <ul>
+                    <li>Dependency grammar formalism</li>
+                    <li>Transition-based dependency parsing</li>
+                    <li>Graph-based dependency parsing</li>
+                    <li>Neural dependency parsing approaches</li>
+                    <li>Universal Dependencies framework</li>
+                </ul>
+                
+                <h3>Earley Parsing</h3>
+                <p>Earley parsing is a dynamic programming algorithm that can handle any context-free grammar. This section covers:</p>
+                <ul>
+                    <li>Earley algorithm formulation</li>
+                    <li>Chart parsing concepts</li>
+                    <li>Implementation and complexity analysis</li>
+                    <li>Advantages over other parsing approaches</li>
+                </ul>
+                
+                <h3>Probabilistic Context-Free Grammars</h3>
+                <p>Probabilistic Context-Free Grammars (PCFGs) extend CFGs by assigning probabilities to production rules. This section covers:</p>
+                <ul>
+                    <li>Formal definition of PCFGs</li>
+                    <li>Parameter estimation from treebanks</li>
+                    <li>Probabilistic parsing algorithms</li>
+                    <li>Disambiguation using probabilities</li>
+                    <li>Evaluation of probabilistic parsers</li>
+                </ul>
+                
+                <div class="navigation-links">
+                    <a href="unit1.html" class="btn">Previous: Unit 1</a>
+                    <a href="objectives.html" class="btn">Back to Learning Objectives</a>
+                    <a href="unit3.html" class="btn">Next: Unit 3</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Saiyyam Ahuja | NLP Course Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

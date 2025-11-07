@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 1: Overview and Word Level Analysis | NLP Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">NLP Portfolio</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About the Course</a></li>
+                    <li><a href="objectives.html">Learning Objectives</a></li>
+                    <li class="dropdown">
+                        <a href="#">Units</a>
+                        <div class="dropdown-content">
+                            <a href="unit1.html">Unit 1</a>
+                            <a href="unit2.html">Unit 2</a>
+                            <a href="unit3.html">Unit 3</a>
+                            <a href="unit4.html">Unit 4</a>
+                            <a href="unit5.html">Unit 5</a>
+                        </div>
+                    </li>
+                    <li><a href="reflection.html">Reflection</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Unit 1: Overview and Word Level Analysis</h1>
+            <p>9 Hours</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="section">
+            <div class="unit-content">
+                <h2>Unit Overview</h2>
+                <p>This unit provides a foundational understanding of Natural Language Processing and introduces essential techniques for word-level analysis. Students learn about the basic concepts, applications, and methods used in the initial stages of language processing.</p>
+                
+                <div class="download-section">
+                    <a href="Short notes/UNIT_1_NLP.pdf" class="btn" target="_blank">Download Unit 1 Notes (PDF)</a>
+                </div>
+                <h3>Introduction to Natural Language Processing</h3>
+                <p>Natural Language Processing (NLP) is a field at the intersection of computer science, artificial intelligence, and linguistics that focuses on enabling computers to understand, interpret, and generate human language. This section covers the history, evolution, and current state of NLP research and applications.</p>
+                
+                <h3>Applications of NLP</h3>
+                <p>NLP has numerous practical applications across various domains:</p>
+                <ul>
+                    <li>Machine translation</li>
+                    <li>Sentiment analysis</li>
+                    <li>Text summarization</li>
+                    <li>Question answering systems</li>
+                    <li>Chatbots and virtual assistants</li>
+                    <li>Information extraction</li>
+                    <li>Speech recognition</li>
+                </ul>
+                
+                <h3>Levels of NLP</h3>
+                <p>NLP involves multiple levels of language analysis:</p>
+                <ul>
+                    <li><strong>Phonological level:</strong> Dealing with speech sounds</li>
+                    <li><strong>Morphological level:</strong> Analyzing word structure and formation</li>
+                    <li><strong>Lexical level:</strong> Focusing on individual words and their meanings</li>
+                    <li><strong>Syntactic level:</strong> Examining sentence structure and grammar</li>
+                    <li><strong>Semantic level:</strong> Understanding meaning in language</li>
+                    <li><strong>Discourse level:</strong> Analyzing text beyond individual sentences</li>
+                    <li><strong>Pragmatic level:</strong> Interpreting language in context</li>
+                </ul>
+                
+                <h3>Regular Expressions</h3>
+                <p>Regular expressions (regex) are powerful pattern-matching tools used in text processing. This section covers regex syntax, operators, and their application in NLP tasks such as text extraction, validation, and search operations.</p>
+                
+                <h3>Morphological Analysis</h3>
+                <p>Morphological analysis involves studying the structure of words and how they're formed. This includes understanding:</p>
+                <ul>
+                    <li>Morphemes (smallest meaningful units in language)</li>
+                    <li>Word formation processes (affixation, compounding, etc.)</li>
+                    <li>Computational approaches to morphological analysis</li>
+                </ul>
+                
+                <h3>Tokenization</h3>
+                <p>Tokenization is the process of breaking text into smaller units called tokens (usually words, phrases, or sentences). This section covers:</p>
+                <ul>
+                    <li>Word tokenization techniques</li>
+                    <li>Sentence tokenization</li>
+                    <li>Challenges in tokenization (handling punctuation, contractions, etc.)</li>
+                    <li>Implementation of tokenizers</li>
+                </ul>
+                
+                <h3>Stemming and Lemmatization</h3>
+                <p>These techniques reduce words to their base or root forms:</p>
+                <ul>
+                    <li><strong>Stemming:</strong> Removing word suffixes using heuristic rules (Porter, Snowball stemmers)</li>
+                    <li><strong>Lemmatization:</strong> Converting words to their dictionary form (lemma) using vocabulary and morphological analysis</li>
+                    <li>Comparison of stemming vs. lemmatization approaches</li>
+                </ul>
+                
+                <h3>Feature Extraction: Term Frequency (TF), Inverse Document Frequency (IDF)</h3>
+                <p>This section covers statistical methods for representing text data:</p>
+                <ul>
+                    <li><strong>Term Frequency (TF):</strong> Measuring how frequently a term appears in a document</li>
+                    <li><strong>Inverse Document Frequency (IDF):</strong> Measuring how important a term is across a collection of documents</li>
+                    <li>Mathematical formulations and implementations</li>
+                </ul>
+                
+                <h3>Modeling using TF-IDF</h3>
+                <p>TF-IDF (Term Frequency-Inverse Document Frequency) is a numerical statistic that reflects the importance of a word in a document collection. This section covers:</p>
+                <ul>
+                    <li>TF-IDF calculation and interpretation</li>
+                    <li>Vector space model for document representation</li>
+                    <li>Applications in information retrieval and text classification</li>
+                    <li>Implementation using libraries like scikit-learn</li>
+                </ul>
+                
+                <h3>Parts of Speech Tagging</h3>
+                <p>Parts of Speech (POS) tagging involves labeling words in text according to their grammatical categories. This section covers:</p>
+                <ul>
+                    <li>POS categories and tagsets (Penn Treebank, Universal Dependencies)</li>
+                    <li>Rule-based, statistical, and neural approaches to POS tagging</li>
+                    <li>Evaluation metrics for POS taggers</li>
+                    <li>Implementation using NLP libraries</li>
+                </ul>
+                
+                <h3>Named Entity Recognition</h3>
+                <p>Named Entity Recognition (NER) identifies and classifies named entities in text into predefined categories. This section covers:</p>
+                <ul>
+                    <li>Common entity types (person, organization, location, date, etc.)</li>
+                    <li>Rule-based and machine learning approaches to NER</li>
+                    <li>Evaluation of NER systems</li>
+                    <li>Implementation and applications</li>
+                </ul>
+                
+                <h3>N-grams</h3>
+                <p>N-grams are contiguous sequences of n items from a given text. This section covers:</p>
+                <ul>
+                    <li>Unigrams, bigrams, trigrams, and higher-order n-grams</li>
+                    <li>N-gram language models</li>
+                    <li>Applications in text prediction, spelling correction, and machine translation</li>
+                    <li>Implementation and evaluation</li>
+                </ul>
+                
+                <h3>Smoothing</h3>
+                <p>Smoothing techniques address the problem of zero probabilities in language models. This section covers:</p>
+                <ul>
+                    <li>The zero-frequency problem</li>
+                    <li>Smoothing methods (Laplace, Good-Turing, Kneser-Ney)</li>
+                    <li>Backoff and interpolation techniques</li>
+                    <li>Implementation and comparison of smoothing approaches</li>
+                </ul>
+                
+                <div class="navigation-links">
+                    <a href="objectives.html" class="btn">Back to Learning Objectives</a>
+                    <a href="unit2.html" class="btn">Next: Unit 2</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Saiyyam Ahuja | NLP Course Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
